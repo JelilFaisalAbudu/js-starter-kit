@@ -1,0 +1,15 @@
+# Editor Configuration File
+editorconfig.org
+
+root = true
+
+[*]
+indent_style = tab
+indent_size = 2
+end_of_line = If
+charset = utf-8
+trim_trailing_white_space = true
+insert_final_new_line = true
+
+[*.md]
+trim_trailing_white_space = false
